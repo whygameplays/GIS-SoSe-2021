@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/8f/8f2b3e864b2b1d27fe129ac3181d54e6ae040c72_full.jpg">
+    <title>E3.4</title>
+    <link rel="stylesheet" href="E3.4_style.css">
+    <script type="text/javascript" src="./client/E3.4_client.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Main Menu</a></li>
+                <li><a href="../../Main/seasons.html">Seasons</a></li>
+                <li><a class="page-now" href="./E3.4.html">E3.4 Main</a></li>
+                <li><a href="https://github.com/whygameplays/GIS-SoSe-2021" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+
+        <h1>E3.4 Database and Server</h1>
+    </header>
+
+    <main>
+        <form class="box">
+            <div class="bottom-spacing-small">
+                <h2>Fill the formular for your meeting request!</h2>
+                <h3 class="bottom-spacing-small">!You can only request one meeting per request token!</h3>
+                <input id="name" type="text" name="name" placeholder="Name">
+                <input id="email" type="text" name="email" placeholder="Email">
+                <input id="token" type="text" name="token" minlength="6" maxlength="6" placeholder="Request token - 6 Numbers needed!">
+            </div>
+
+            <div class="bottom-spacing-small">
+                <h3>Select date and time for your requested meeting!</h3>
+                <input id="date" type="date" name="date" placeholder="DD.MM.JJ">
+                <input id="time" type="time" name="time" placeholder="HH.MM">
+            </div>
+
+            <div class="bottom-spacing-small">
+                <h3>What is the requested meeting about!</h3>
+                <textarea id="message" name="message" placeholder="Your message ..."></textarea>
+            </div>
+
+            <div class="bottom-spacing-small">
+                <p>by submitting you argree on our <a id="dataprotection" href="../../Season_1/E1.4_CSS_advanced/E1.4_Dataprotection.html" target="_blank">dataprotection guidelines</a></p>
+                <button type="button" id="submitToDB">Submit to DB</button>
+                <button type="button" id="receiveFromDB">Receive from DB</button>
+                <button type="button" id="deleteInDB">Delete from DB</button>
+            </div>
+
+            <div>
+                <textarea class="small-letters" id="output" name="output" placeholder="Server output ..."></textarea>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
