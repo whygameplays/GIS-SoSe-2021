@@ -1,0 +1,276 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(./media/bg.png);
+    background-color: black;
+    color: white;
+    background-size: 30px;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+hr {
+    max-width: 800px;
+}
+
+h1, h2  {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    overflow: hidden;
+    background-image: radial-gradient(circle farthest-corner at 2.5% 5.5%,  rgba(10,36,99,1) 0%, rgba(228,60,82,1) 90%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 1px 5px black;
+}
+
+.navbar a {
+    flex: 1 1 33.3%;
+
+    font-weight: bold;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    transition: all 200ms ease-in;
+}
+
+.navbar a:hover {
+    color: black;
+    background: white;
+}
+
+.active {
+    color: red;
+    background-image: radial-gradient(circle farthest-corner at 2.3% 23.2%,  rgba(0,232,253,1) 8.7%, rgba(7,53,122,1) 74.7%);
+}
+
+.active:hover {
+    color: white;
+    background: black;
+}
+
+.main {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.basic_info {
+    border: 1px solid white;
+    text-decoration: none;
+    width: 799px;
+    text-align: left;
+    margin: auto;
+}
+
+#binfo {
+    color: red;
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+.link_table {
+    width: 799px;
+    text-align: left;
+    margin: auto;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+
+    width: 802px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+th {
+    padding: 0 80px 0 80px;
+}
+
+a {
+    color: rgb(0, 191, 255);
+}
+
+a:hover {
+    color: red;
+    transition: all 200ms ease-in;
+}
+
+audio {
+    width: 800px;
+}
+
+footer {
+    padding: 20px 0 25px 0;
+}
+
+footer a {
+    padding: 20px;
+}
+
+/*Contact Page*/
+ul.social_set {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+ul.social_set li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.social_li {
+    filter: invert();
+    font-size: 2em;
+    line-height: 1em;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+a.social_li:hover, a.sociali:focus {
+    background: #00e9ff;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+#img_800 {
+    width: 800px;
+    height: 800px;
+}
+
+#Design_1080 {
+    width: 800px;
+}
+
+.box {
+    margin: auto;
+    width: 800px;
+    padding: 20px 0 20px 0;
+    background-image: radial-gradient(circle farthest-corner at 2.3% 23.2%,  rgba(0,232,253,1) 8.7%, rgba(7,53,122,1) 74.7%);
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.box input[type="text"],
+.box input[type="email"] {
+    font-family: sans-serif;
+    color: black;
+    background: white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 10px 10px;
+    width: 300px;
+    outline: none;
+    transition: 250ms;
+}
+
+.box input[type="text"]:focus,
+.box input[type="email"]:focus {
+    padding: 10px 14px;
+    border: 2px solid red;
+}
+
+.box textarea {
+    font-family: sans-serif;
+    color: black;
+    background: white;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid grey;
+    padding: 10px;
+    outline: none;
+    transition: 250ms;
+    height: 200px;
+    width: 600px;
+    resize: none;
+}
+
+.box textarea:focus {
+    border: 2px solid red;
+    width: 610px;
+}
+
+.box input[type="submit"] {
+    color: white;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 10px 40px;
+    outline: none;
+    transition: 250ms;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.box input[type="submit"]:hover {
+    background-image: radial-gradient(circle farthest-corner at 2.5% 5.5%,  rgba(10,36,99,1) 0%, rgba(228,60,82,1) 90%);
+    border: 2px solid white;
+    border: 2px solid white;
+}
+
+.box p {
+    font-size: x-small;
+}
+
+.box a {
+    text-decoration: underline;
+}
+
+.dtschtz {
+    text-align: left;
+}
+
+/*---Dataprotection Policy---*/
+#main_policy {
+    text-align: left;
+    padding: 0 2rem;
+}
+
+#main_policy h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+
+#main_policy h2,
+#main_policy h3 {
+    text-align: left;
+    text-decoration: underline;
+    color: red;
+}

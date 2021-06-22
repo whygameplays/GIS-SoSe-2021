@@ -1,0 +1,25 @@
+{
+    "dependencies": {
+        "mongodb": "^3.6.9"
+    },
+    "name": "gis-sose-2021",
+    "description": "This is the repository of whygameplays!\r This is practical training of HTML, CSS and JavaScript / Typescript!\r ## Delivery: GitHub / GitHub Pages\r https://whygameplays.github.io/GIS-SoSe-2021/",
+    "version": "0.0.1",
+    "main": "index.js",
+    "scripts": {
+        "start": "node Season_3/TEST/server/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/whygameplays/GIS-SoSe-2021.git"
+    },
+    "author": "whygameplays",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/whygameplays/GIS-SoSe-2021/issues"
+    },
+    "homepage": "https://github.com/whygameplays/GIS-SoSe-2021#readme",
+    "devDependencies": {
+        "@types/node": "^15.12.1"
+    }
+}

@@ -1,6 +1,12 @@
 .vscode
 node_modules
 
+Database
+Test
+Cookingspace
+
+Memory
+
 Backup
 *.rar
 *.zip
