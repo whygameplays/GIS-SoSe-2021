@@ -13,23 +13,20 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Main Menu</a></li>
-                <li><a class="page-now" href="seasons.html">Seasons</a></li>
-                <li><a href="https://github.com/whygameplays/GIS-SoSe-2021" target="_blank">GitHub</a></li>
-            </ul>
-        </nav>
-
-        <h1>GIS</h1>
-        <p>Creation of interactive systems - Summer-Semester-2021</p>
+        <header class="container-navbar">
+            <img class="navbar-logo" src="./media/GIS_Logo.png" alt="GIS Logo">
+            <a class="navbar-item" href="../index.html">Main Menu</a>
+            <a class="navbar-item" id="pagenow" href="seasons.html">Seasons</a>
+            <a class="navbar-item" href="../Season_3/E3.4_Database_and_Server/E3.4.html">Newest</a>
+            <a class="navbar-item" href="https://github.com/whygameplays/GIS-SoSe-2021" target="_blank">GitHub</a>
+        </header>
     </header>
 
 
-    <main>
+    <main class="content-start">
         <div class="exercise">
-            <h2>Memory Game</h2>
-            <a href="../Season_4/Memory/Memory.html">Memory Game</a>
+            <h2>Newest</h2>
+            <a class="active" href="../Season_3/E3.4_Database_and_Server/E3.4.html">Exercise 3.4</a>
         </div>
 
         <div class="exercise">
@@ -53,10 +50,20 @@
             <h2>Server and Data</h2>
             <a class="active" href="../Season_3/E3.1_Server_Connection/E3.1.html">Exercise 3.1</a>
             <a class="active" href="../Season_3/E3.2_Server_Request/E3.2.html">Exercise 3.2</a>
-            <a href="https://mongodbnetbrowser.herokuapp.com/?u=testuser&p=isOAoCxzMx4YV0fk&a=whygameplays.iba9w.mongodb.net&n=E3-3&c=Students">Exercise 3.3</a>
+            <a class="active" href="https://mongodbnetbrowser.herokuapp.com/?u=testuser&p=isOAoCxzMx4YV0fk&a=whygameplays.iba9w.mongodb.net&n=E3-3&c=Students">Exercise 3.3</a>
             <a class="active" href="../Season_3/E3.4_Database_and_Server/E3.4.html">Exercise 3.4</a>
         </div>
+
+        <div class="exercise">
+            <h2>In progress</h2>
+            <a href="../Season_4/Cookingspace/Cookingspace.html">Cookingspace</a>
+            <a href="../Season_4/Memory/Memory.html">Memory Game</a>
+        </div>
     </main>
+
+    <footer class="container-footer">
+        <p>Created by <a target="_blank" href="https://whygameplays.github.io/GIS-SoSe-2021/">whygameplays</a></p>
+    </footer>
 </body>
 
 </html>
