@@ -23,7 +23,7 @@
     color: white;
     font-family: "Segoe UI";
     text-decoration: none;
-    overflow-y: hidden;
+    overflow-x: hidden;
     transition: all 250ms ease-in;
     scroll-behavior: smooth;
 }
@@ -109,7 +109,7 @@ header a {
     margin-left: auto;
     margin-right: auto;
     word-spacing: 0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .exercise a.active {
@@ -117,7 +117,7 @@ header a {
     color: white;
     width: 180px;
     word-spacing: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all 250ms ease;
 }
 
