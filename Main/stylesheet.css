@@ -23,6 +23,7 @@
     color: white;
     font-family: "Segoe UI";
     text-decoration: none;
+    overflow-y: hidden;
     transition: all 250ms ease-in;
     scroll-behavior: smooth;
 }
