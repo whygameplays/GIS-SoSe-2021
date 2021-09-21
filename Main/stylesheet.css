@@ -15,6 +15,7 @@
     --redwhite: rgb(255, 78, 78);
 }
 
+
 /* Universal settings */
 
 * {
@@ -34,7 +35,7 @@ body {
     background-color: black;
     text-align: center;
     margin: 0;
-    background-image: url(./media/bg.png);
+    background-image: url("./img/bg.png");
     transition: all 250ms ease-in;
 }
 
@@ -172,15 +173,10 @@ header a {
     margin: 0;
 }
 
-.page-now {
-    color: red;
-    width: 180px;
-    transition: all 200ms ease;
-}
-
 .logo {
     margin: 10px;
 }
+
 
 /* Pagefooter */
 
